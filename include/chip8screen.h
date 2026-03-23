@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include "config.h"
 
+// device screen is represented as a 2D array of monochrome pixels
 struct chip8_screen
 {
     bool pixels[CHIP8_HEIGHT][CHIP8_WIDTH];

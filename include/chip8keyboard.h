@@ -4,10 +4,11 @@
 #include <stdbool.h>
 #include "config.h"
 
+// data structure representing device virtual keyboard
 struct chip8_keyboard
 {
-    bool keyboard[CHIP8_TOTAL_KEYS];
-    const char* keyboard_map;
+    bool keyboard[CHIP8_TOTAL_KEYS]; // state of keys (up/down)
+    const char* keyboard_map; // maps physical to virtual keys
 };
 
 void chip8_keyboard_set_map(struct chip8_keyboard* keyboard, const char* map);

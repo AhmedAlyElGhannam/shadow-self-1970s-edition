@@ -10,6 +10,7 @@
 #include "chip8keyboard.h"
 #include "chip8screen.h"
 
+// device is represented as a chonky data structure containing all of the other structures necessary for successful emulation
 struct chip8
 {
     struct chip8_memory memory;

@@ -3,6 +3,7 @@
 
 #include "config.h"
 
+// device memory is 4KB in total (represented as an array)
 struct chip8_memory
 {
     unsigned char memory[CHIP8_MEMORY_SIZE];

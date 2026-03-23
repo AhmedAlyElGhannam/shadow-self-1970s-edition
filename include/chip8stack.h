@@ -3,8 +3,10 @@
 
 #include "config.h"
 
+// forward declaration for device data structure for prototype
 struct chip8;
 
+// device stack is represented as an array of 2 bytes with length 16 *kawaii!*
 struct chip8_stack
 {
     unsigned short stack[CHIP8_TOTAL_STACK_DEPTH];

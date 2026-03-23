@@ -1,6 +1,8 @@
 #ifndef CONFIG_H_
 #define CONFIG_H_
 
+// some macros for configurations (names are self-explanatory)
+
 #define EMULATOR_WINDOW_TITLE   "Chip8 Shadow Self 1970s Edition"
 #define CHIP8_MEMORY_SIZE   4096
 #define CHIP8_WIDTH     64

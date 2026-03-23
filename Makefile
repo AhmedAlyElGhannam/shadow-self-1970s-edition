@@ -2,6 +2,7 @@ INCLUDES= -I ./include
 LIBS= -L ./lib
 FLAGS= -g
 OBJECTS= ./build/chip8memory.o ./build/chip8stack.o ./build/chip8keyboard.o ./build/shadowself.o ./build/chip8screen.o
+
 all: ${OBJECTS}
 	gcc ${FLAGS} ${INCLUDES} ./src/main.c ${OBJECTS} -lSDL2main -lSDL2 -o ./bin/main
 
