@@ -11,3 +11,4 @@
 *.o filter=lfs diff=lfs merge=lfs -text
 Image filter=lfs diff=lfs merge=lfs -text
 *.CHP8 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
